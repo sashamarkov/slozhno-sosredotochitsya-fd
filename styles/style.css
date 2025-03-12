@@ -184,7 +184,7 @@
   color: var(--section-title-color);
   font-weight: 700;
   font-size: inherit;
-  -webkit-margin-after: 20px;/*var(--page-accent-color, #ff0070);*/
+  -webkit-margin-after: 20px;
 }
 
 @media (width >= 768px) {
@@ -345,8 +345,8 @@ h4.card__title {
   border-inline-start: 1px solid var(--page-accent-color, #ff0070);
   border-block-end: 1px solid var(--page-accent-color, #ff0070);  
   -webkit-border-start: 1px solid var(--page-accent-color, #ff0070);
-  -webkit-border-after: 1px solid var(--page-accent-color, #ff0070);  
-  inline-size: 25px; 
+  -webkit-border-after: 1px solid var(--page-accent-color, #ff0070);
+  inline-size: 25px;
   block-size: 25px;
 }
 
