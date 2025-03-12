@@ -23,7 +23,6 @@
   display: grid;
   padding: var(--content-padding, 10px);
   color: var(--page-accent-color, #ff0070);
-  grid-template: 1fr -webkit-min-content 1fr / 1fr; 
   grid-template: 1fr min-content 1fr / 1fr;
   min-block-size: 668px;
   block-size: 100dvh;
@@ -86,8 +85,8 @@
 
 .header__theme-menu-button:focus-visible {
   border: 1px solid transparent;
-  -webkit-border-after: 1px solid var(--section-title-color, #ff0070);
   border-block-end: 1px solid var(--section-title-color, #ff0070);
+  -webkit-border-after: 1px solid var(--section-title-color, #ff0070);
 }
 
 .header__theme-menu-button_active {
@@ -113,11 +112,11 @@
 @media (width >= 768px) {
   .header__title {
     position: relative;
-    transform: translateX(-20px);  
+    transform: translateX(-20px);
   }
 }
 
-.dark-theme-decor {
+.dark-theme__decor {
   position: absolute;
   inset: 10px 20px auto auto;
   display: flex;
@@ -129,13 +128,13 @@
 }
 
 @media (width >= 768px) {
-  .dark-theme-decor {
+  .dark-theme__decor {
     top: 20px;
     right: 30px;
   }
 }
 
-.dark-theme-decor::after {
+.dark-theme__decor::after {
   content: "";
   border-radius: 50%;
   box-shadow: 0px 0px 4px 2px var(--page-accent-color, #ff0070);
@@ -156,11 +155,11 @@
   50% { opacity: 0; }
 }
 
-.theme-light .dark-theme-decor {
+.theme-light .dark-theme__decor {
   display: none;
 }
 
-.theme-dark .dark-theme-decor {
+.theme-dark .dark-theme__decor {
   display: flex;
 }
 /* #endregion Шапка */
@@ -182,10 +181,10 @@
 
 .section__title {
   margin-block-end: 20px;
-  color: var(--section-title-color);/*var(--page-accent-color, #ff0070);*/
+  color: var(--section-title-color);
   font-weight: 700;
   font-size: inherit;
-  -webkit-margin-after: 20px;
+  -webkit-margin-after: 20px;/*var(--page-accent-color, #ff0070);*/
 }
 
 @media (width >= 768px) {
@@ -260,7 +259,6 @@ h4.card__title {
   .card_type_visual-advices ul {
     display: grid;  
     gap: 20px;
-    grid-template: fit-content(200px) minmax(-webkit-min-content, -webkit-max-content) auto / repeat(3, 1fr);
     grid-template: fit-content(200px) minmax(min-content, max-content) auto / repeat(3, 1fr);
   }
 }
@@ -354,7 +352,7 @@ h4.card__title {
 
 @media (width >= 768px) {
   .decorated-section::before {
-    inset: auto auto 20px 20px;  
+    inset: auto auto 20px 20px;
   }
 }
 

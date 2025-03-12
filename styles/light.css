@@ -29,7 +29,7 @@
     --theme-menu-button-hover-color: #d0c6c9;
   }
 
-  .dark-theme-decor {
+  .dark-theme__decor {
     display: none;
   }
 }
