@@ -327,10 +327,10 @@
   content: "";
   position: absolute;
   inset: auto auto 10px 10px;
-  border-inline-start: 1px solid var(--page-text-color, #ff0070);
-  border-block-end: 1px solid var(--page-text-color, #ff0070);  
-  -webkit-border-start: 1px solid var(--page-text-color, #ff0070);
-  -webkit-border-after: 1px solid var(--page-text-color, #ff0070);
+  border-inline-start: 1px solid var(--section-title-color, #ff0070);
+  border-block-end: 1px solid var(--section-title-color, #ff0070);  
+  -webkit-border-start: 1px solid var(--section-title-color, #ff0070);
+  -webkit-border-after: 1px solid var(--section-title-color, #ff0070);
   inline-size: 25px;
   block-size: 25px;
 }
@@ -345,10 +345,10 @@
   content: "";
   position: absolute;
   inset: 10px 10px auto auto;
-  border-inline-end: 1px solid var(--page-text-color, #ff0070);
-  border-block-start: 1px solid var(--page-text-color, #ff0070);
-  -webkit-border-end: 1px solid var(--page-text-color, #ff0070);
-  -webkit-border-before: 1px solid var(--page-text-color, #ff0070);
+  border-inline-end: 1px solid var(--section-title-color, #ff0070);
+  border-block-start: 1px solid var(--section-title-color, #ff0070);
+  -webkit-border-end: 1px solid var(--section-title-color, #ff0070);
+  -webkit-border-before: 1px solid var(--section-title-color, #ff0070);
   inline-size: 25px;
   block-size: 25px;
 }
