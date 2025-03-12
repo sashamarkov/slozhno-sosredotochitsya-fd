@@ -14,7 +14,7 @@
   --page-bg-image: url(../images/cover-image-light.png);
   --card-title-color: #353430;
   --section-title-color: #353430;
-  --theme-menu-button-hover-color: #d0c6c9;
+  --theme-menu-button-hover-color: #32312d66;
 }
 
 @media (prefers-color-scheme: light) {
@@ -26,10 +26,14 @@
     --page-bg-image: url(../images/cover-image-light.png);
     --card-title-color: #353430;
     --section-title-color: #353430;
-    --theme-menu-button-hover-color: #d0c6c9;
+    --theme-menu-button-hover-color: #32312d66;
   }
 
   .dark-theme__decor {
     display: none;
   }
+}
+
+.theme-light .dark-theme__decor {
+  display: none;
 }

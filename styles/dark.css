@@ -12,3 +12,7 @@
   --section-title-color: #ff0070;
   --theme-menu-button-hover-color: #ff007066;
 }
+
+.theme-dark .dark-theme__decor {
+  display: flex;
+}
