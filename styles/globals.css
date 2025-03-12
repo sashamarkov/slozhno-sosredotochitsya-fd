@@ -40,3 +40,33 @@ a {
   font-size: inherit;
   line-height: inherit;
 }
+
+img {
+  display: block;
+  inline-size: 100%;
+  block-size: 100%;
+}
+
+@media (width >= 768px) {
+  img {
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+  }
+}
+
+@media (orientation: portrait) {
+  img {
+    max-height: 70vh;
+  }
+}
+
+/* Ретина-дисплеи. */
+@media 
+  (-webkit-min-device-pixel-ratio: 2), 
+  (min-resolution: 192dpi) { 
+  img {
+    image-rendering: -webkit-optimize-contrast; /* Улучшение резкости. */
+  }
+}
