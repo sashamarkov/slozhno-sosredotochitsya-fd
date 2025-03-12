@@ -257,7 +257,7 @@ h4.card__title {
 
 @media (width >= 768px) {
   .card_type_visual-advices ul {
-    display: grid;  
+    display: grid;
     gap: 20px;
     grid-template: fit-content(200px) minmax(min-content, max-content) auto / repeat(3, 1fr);
   }
@@ -346,7 +346,7 @@ h4.card__title {
   border-block-end: 1px solid var(--page-accent-color, #ff0070);  
   -webkit-border-start: 1px solid var(--page-accent-color, #ff0070);
   -webkit-border-after: 1px solid var(--page-accent-color, #ff0070);  
-  inline-size: 25px;
+  inline-size: 25px; 
   block-size: 25px;
 }
 
