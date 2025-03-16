@@ -20,6 +20,7 @@
   --content-gap: 50px;
   /* Цвет рамки при наведении курсора на кнопку переключения темы. */
   --theme-menu-button-hover-color: #ff007066;
+
 }
 
 @media (width >= 768px) {
