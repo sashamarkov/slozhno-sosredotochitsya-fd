@@ -191,9 +191,9 @@
   -webkit-margin-after: 10px;
 }
 
-.card__text ~ .card__text {
+/*.card__text ~ .card__text {
   margin-block-start: 10px;
-}
+}*/
 
 @media (width >= 768px) {
   .section {
